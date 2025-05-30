@@ -65,7 +65,7 @@ while run:
         if User_time % 250 == 0:
             ball = Ball(random.randint(20, 940), random.choice(High), random.choice(vector), random.choice(vector), delit)
             Balls.add(ball)
-            delit += 3
+            delit += 2
 
         if player.HP <= 0:
             life = False
